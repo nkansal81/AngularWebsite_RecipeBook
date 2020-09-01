@@ -1,0 +1,16 @@
+.float-left {
+    margin : 10px;
+}
+
+.float-right {
+    margin: 10px;
+}
+
+/* .row-recipe-list {
+    /* border: 3px solid #4CAF50;  */
+    /* padding: 5px;  */
+/*} */
+
+.row-recipe-list-btn {
+    padding: 3px;
+}

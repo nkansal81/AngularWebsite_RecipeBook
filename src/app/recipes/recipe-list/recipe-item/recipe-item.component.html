@@ -1,0 +1,18 @@
+<a  
+style="cursor: pointer;"
+[routerLink] = "[index]"
+routerLinkActive = "active"
+class="list-group-item clearfix">
+    <div class="float-sm-left">
+        <h4 class="list-group-item-heading">{{ recipeInput.name }}</h4>
+        <p class="list-group-item-text">{{ recipeInput.description }}</p>
+    </div>
+    <span class="float-sm-right">
+        <!-- img-responsive will set the image automatically. -->
+        <img 
+        src="{{ recipeInput.imagePath }}"
+        alt="{{ recipeInput.name }}" 
+        class="img-fluid.max-width: 100%" 
+        style="max-height: 50px;">
+    </span>
+</a>
